@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run tests
+        working-directory: skills/liberal-arts-job-interview
+        run: python -m unittest discover -s tests -v
+
+      - name: Compile scripts
+        working-directory: skills/liberal-arts-job-interview
+        run: |
+          python -m py_compile \
+            scripts/role_router.py \
+            scripts/research_guard.py \
+            scripts/question_validator.py \
+            scripts/answer_validator.py

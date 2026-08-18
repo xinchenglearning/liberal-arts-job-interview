@@ -1,0 +1,48 @@
+{
+  "name": "liberal-arts-job-interview",
+  "version": "0.4.0",
+  "description": "Campus recruiting interview preparation for liberal-arts students across product, operations, marketing, procurement, planning, user research, and business roles.",
+  "author": {
+    "name": "xinchenglearning"
+  },
+  "license": "MIT",
+  "keywords": [
+    "campus-recruiting",
+    "interview",
+    "resume",
+    "liberal-arts",
+    "operations",
+    "marketing",
+    "procurement",
+    "planning",
+    "user-research",
+    "sales",
+    "human-resources",
+    "publicity",
+    "customer-success",
+    "career",
+    "question-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "文科生求职",
+    "shortDescription": "文科与商科校招面试题及答案准备工具",
+    "longDescription": "面向文科、商科和非技术类校招岗位，根据岗位、行业、JD、简历与面试轮次生成针对性问题、追问、反问和结构化答案。",
+    "developerName": "xinchenglearning",
+    "category": "education",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我准备文科生校招面试题，我会提供岗位、公司、JD 和简历项目。",
+      "基于我的简历，帮我准备运营、市场、采购、策划、用研、销售、人力、宣传或客户成功岗位面试。",
+      "根据目标岗位生成高质量问题、追问、答案和反问。"
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": [],
+    "composerIcon": "./assets/liberal-arts-job-interview-icon.svg",
+    "logo": "./assets/liberal-arts-job-interview-icon.svg"
+  }
+}

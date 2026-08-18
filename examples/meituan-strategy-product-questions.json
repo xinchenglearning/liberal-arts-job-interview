@@ -1,0 +1,193 @@
+{
+  "route_result": {
+    "primary_route": "internet",
+    "route_reason": "目标公司、行业和 JD 命中互联网、本地生活、策略产品、增长、AI 工具等关键词。",
+    "enhancers": ["ai_business_enhancer", "business_round_enhancer"],
+    "confidence": "high",
+    "missing_information": []
+  },
+  "question_context_summary": {
+    "company_business": ["本地生活平台", "供需匹配", "交易履约"],
+    "industry_logic": ["用户需求、商家供给、履约体验和平台效率共同影响业务结果"],
+    "interview_signals": ["策略产品校招常问项目深挖、指标体系、业务场景分析"],
+    "ai_scenarios": ["AI 辅助用户意图理解", "AI 客服", "AI 供需匹配"],
+    "risk_notes": ["示例文件用于测试结构，不代表真实面经结论"]
+  },
+  "candidate_risk_diagnosis": [
+    {
+      "risk": "项目指标可能讲不清",
+      "why_it_matters": "策略产品面试会追问目标、指标口径、结果归因。",
+      "questions_to_prepare": ["校园二手交易平台项目的核心指标是什么？"],
+      "information_to_fill": ["项目基线数据", "活动周期", "转化漏斗口径"]
+    }
+  ],
+  "question_map": [
+    {
+      "dimension": "自我介绍",
+      "question": "请做一个 2-3 分钟自我介绍，并说明你的校园二手交易平台项目为什么能证明你适合策略产品岗位。",
+      "interviewer_intent": "验证候选人能否建立清晰定位，并把项目经历和岗位要求连接起来。",
+      "why_this_question": "校招业务面常从自我介绍进入项目深挖。",
+      "high_score_points": ["经历主线清晰", "突出策略分析和指标意识", "埋下项目钩子"],
+      "followups": ["这个项目和本地生活策略产品有什么迁移关系？"],
+      "material_connection": "关联用户简历中的校园二手交易平台增长项目。",
+      "industry_context": "互联网策略产品关注用户链路、指标验证和策略复盘。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "自我介绍",
+      "question": "如果只能用三个关键词概括你和这个岗位的匹配点，你会选择哪三个？每个关键词用一个经历证明。",
+      "interviewer_intent": "验证候选人能否主动提炼个人能力标签。",
+      "why_this_question": "校招生经历较分散，需要用清晰标签降低面试官理解成本。",
+      "high_score_points": ["关键词与 JD 对齐", "每个关键词有证据", "避免空泛性格描述"],
+      "followups": ["哪个能力还需要补齐？"],
+      "material_connection": "关联岗位要求和简历项目。",
+      "industry_context": "策略产品岗位通常重视业务分析、数据意识和推进能力。",
+      "priority": "高频"
+    },
+    {
+      "dimension": "简历/项目深挖",
+      "question": "校园二手交易平台项目当时最核心的问题是什么？你怎么判断它不是一个表面问题？",
+      "interviewer_intent": "验证候选人是否理解项目背景和问题定义。",
+      "why_this_question": "真实项目深挖首先会问为什么做，而不是做了什么。",
+      "high_score_points": ["说明业务目标", "区分表层现象和根因", "解释判断依据"],
+      "followups": ["你当时看了哪些数据或用户反馈？"],
+      "material_connection": "关联校园二手交易平台项目背景。",
+      "industry_context": "互联网平台问题常出现在供给、需求、匹配和信任环节。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "简历/项目深挖",
+      "question": "你在项目中的个人贡献是什么？如果没有你，项目结果会有什么不同？",
+      "interviewer_intent": "验证经历真实性和个人贡献边界。",
+      "why_this_question": "校招项目容易混淆团队成果和个人贡献。",
+      "high_score_points": ["明确个人负责模块", "说明关键决策或关键动作", "承认团队协作边界"],
+      "followups": ["哪个决策是你主导的？"],
+      "material_connection": "关联简历项目中的职责表述。",
+      "industry_context": "策略产品需要证明自己不仅执行任务，也能参与判断。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "简历/项目深挖",
+      "question": "项目中遇到的最大阻力是什么？你是如何推进和复盘的？",
+      "interviewer_intent": "验证候选人的问题解决、协作和复盘能力。",
+      "why_this_question": "校招会看遇到阻力时是否能学习和调整。",
+      "high_score_points": ["说明阻力来源", "说明采取的动作", "给出复盘改进"],
+      "followups": ["这件事让你形成了什么方法？"],
+      "material_connection": "关联项目推进经历。",
+      "industry_context": "互联网项目常需要跨角色协调和快速试错。",
+      "priority": "高频"
+    },
+    {
+      "dimension": "岗位匹配",
+      "question": "JD 中要求策略分析和指标体系建设，你会用哪段经历证明自己具备这两个能力？",
+      "interviewer_intent": "验证候选人能否把过往经历转化为岗位能力证据。",
+      "why_this_question": "岗位匹配不是表态，而是用经历证明能力。",
+      "high_score_points": ["拆解 JD 能力", "匹配具体经历", "说明迁移到岗位后的价值"],
+      "followups": ["入职前三个月你会如何补齐能力短板？"],
+      "material_connection": "关联 JD 中策略分析和指标体系建设。",
+      "industry_context": "策略产品岗位需要从业务问题反推指标和策略。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "业务理解",
+      "question": "你如何理解本地生活平台的核心业务链路？这个岗位最可能在哪个环节创造价值？",
+      "interviewer_intent": "验证候选人是否理解行业和岗位价值。",
+      "why_this_question": "业务面会考察候选人是否提前研究业务链路。",
+      "high_score_points": ["拆出用户需求、商家供给、交易转化、履约体验", "定位岗位作用", "说明可能指标"],
+      "followups": ["这个链路里哪个环节最容易出问题？"],
+      "material_connection": "关联目标公司/行业和策略产品岗位。",
+      "industry_context": "本地生活平台依赖供需匹配和履约体验。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "业务理解",
+      "question": "如果竞品在某个新功能上增长很快，你如何判断我们是否应该跟进？",
+      "interviewer_intent": "验证候选人是否能做竞品判断，而不是简单照抄。",
+      "why_this_question": "高质量竞品回答要回到目标用户、业务目标和验证方法。",
+      "high_score_points": ["分析竞品增长原因", "判断是否适配自身用户和供给", "提出小流量验证"],
+      "followups": ["哪些指标能证明跟进有效？"],
+      "material_connection": "关联业务理解和竞品反问需求。",
+      "industry_context": "平台业务不能只复制功能，要判断机制是否适配。",
+      "priority": "高频"
+    },
+    {
+      "dimension": "问题分析",
+      "question": "如果新用户进入平台后浏览很多但下单少，你会如何拆解问题？",
+      "interviewer_intent": "验证候选人结构化拆解业务问题的能力。",
+      "why_this_question": "策略产品需要从现象拆到假设，再确定验证路径。",
+      "high_score_points": ["按流量质量、需求匹配、价格、供给、信任、履约拆解", "提出验证数据", "区分优先级"],
+      "followups": ["如果只能先查一个指标，你会查什么？"],
+      "material_connection": "关联用户增长和转化漏斗经历。",
+      "industry_context": "本地生活交易转化受需求、供给、价格和履约信任共同影响。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "指标与结果",
+      "question": "在校园二手交易平台项目中，你如何定义核心指标、过程指标和护栏指标？",
+      "interviewer_intent": "验证候选人是否能从业务目标出发构建指标体系。",
+      "why_this_question": "策略产品岗位需要说清目标、动作、指标和结果之间的关系。",
+      "high_score_points": ["说明交易转化目标", "拆出浏览、咨询、发布等过程指标", "考虑投诉率或无效信息等护栏"],
+      "followups": ["如何证明指标变化来自你的活动，而不是开学季自然增长？"],
+      "material_connection": "关联项目中的转化漏斗分析。",
+      "industry_context": "交易平台常关注转化漏斗、供给质量和信任风险。",
+      "priority": "必答"
+    },
+    {
+      "dimension": "指标与结果",
+      "question": "如果你做的策略让转化率提升，但次周留存下降，你会如何判断这个策略是否成功？",
+      "interviewer_intent": "验证候选人是否理解核心指标和护栏指标的关系。",
+      "why_this_question": "互联网策略不能只看单点指标提升，还要关注副作用。",
+      "high_score_points": ["区分短期转化和长期留存", "分析用户质量和体验损伤", "提出分层和长期跟踪"],
+      "followups": ["什么情况下你会回滚策略？"],
+      "material_connection": "关联 JD 中指标体系建设和策略分析。",
+      "industry_context": "增长策略需要平衡转化、体验和长期信任。",
+      "priority": "高频"
+    },
+    {
+      "dimension": "AI 业务认知",
+      "question": "如果用 AI 辅助本地生活平台识别用户需求，它应该改造用户链路中的哪个动作？如何评估业务价值？",
+      "interviewer_intent": "验证候选人是否能把 AI 放进具体业务流程。",
+      "why_this_question": "JD 提到 AI 工具在业务效率中的应用，需要考察业务化理解。",
+      "high_score_points": ["指出意图理解或供需匹配动作", "说明输入输出", "提出转化率、满意度、投诉率等评估指标"],
+      "followups": ["AI 失败时如何人工兜底？"],
+      "material_connection": "关联 JD 中 AI 工具和用户增长要求。",
+      "industry_context": "本地生活平台需要平衡转化、履约和用户信任。",
+      "priority": "高频"
+    }
+  ],
+  "reverse_questions": [
+    {
+      "question": "我理解本地生活业务既关注用户转化，也关注履约体验。这个岗位当前更核心的业务目标是提升转化、供给质量，还是履约效率？",
+      "why_ask": "体现候选人理解业务链路和岗位价值。",
+      "shows_ability": ["业务理解", "岗位匹配", "指标意识"],
+      "best_for_round": "业务面",
+      "risk": "如果该岗位不负责本地生活核心链路，需要改成更通用表达。",
+      "safer_alternative": "这个岗位当前最核心的业务目标是什么？"
+    },
+    {
+      "question": "相比竞品，团队现在更关注用户心智、商家供给，还是履约体验上的差异化？",
+      "why_ask": "体现候选人关注竞品差异而非只关注岗位名称。",
+      "shows_ability": ["竞品意识", "业务理解"],
+      "best_for_round": "业务面或终面",
+      "risk": "如果对竞品不了解，可能被反问具体判断。",
+      "safer_alternative": "团队目前最关注的差异化方向是什么？"
+    },
+    {
+      "question": "如果团队引入 AI 工具，当前更希望它提升策略分析效率、用户理解，还是业务执行效率？",
+      "why_ask": "体现候选人能把 AI 和具体业务动作连接。",
+      "shows_ability": ["AI 业务认知", "效率意识"],
+      "best_for_round": "业务面",
+      "risk": "如果岗位与 AI 关联弱，问题可能偏远。",
+      "safer_alternative": "团队目前有哪些环节最需要工具化或自动化提升效率？"
+    },
+    {
+      "question": "对校招生来说，入职前三个月最需要优先补齐的是业务理解、数据分析，还是跨团队推进能力？",
+      "why_ask": "体现候选人关注真实岗位产出要求。",
+      "shows_ability": ["成长意识", "岗位理解"],
+      "best_for_round": "HR 面或终面",
+      "risk": "业务面中可能略偏成长问题。",
+      "safer_alternative": "新人入职后最需要先理解哪条业务链路？"
+    }
+  ],
+  "adjustment_prompt": "这版题目是否贴合你的目标岗位？你希望加深、删减或调整哪些模块？"
+}
