@@ -4,8 +4,47 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# 本地配置与凭据
 .env
 .env.*
+!.env.example
+*.local
 *.pem
 *.key
+*.p12
+*.pfx
+credentials*.json
+secrets/
+private/
+
+# 用户隐私与求职材料
+resume/
+resumes/
+attachments/
+uploads/
+user_data/
+personal/
+简历/
+面试记录/
+个人资料/
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.csv
+*.tsv
+
+# 录音、视频与本地生成结果
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.mov
+output/
+outputs/
+reports/
 dist/
